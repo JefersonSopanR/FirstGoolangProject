@@ -62,7 +62,7 @@ func printSinglePlayer(p *player) {
 	fmt.Println("Player Name: ", p.name)
 	fmt.Println("Player id: ", p.id)
 	fmt.Println("Player Life: ", p.life)
-	ftm.Println("")
+	fmt.Println("Player coins: ", p.coins)
 	fmt.Println("Player Weapons: ")
 	for weapon, damage := range p.weapons {
 		fmt.Printf("    Weapon: %s ----- cost: %.2f\n", weapon, damage)
